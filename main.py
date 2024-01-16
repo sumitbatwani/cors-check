@@ -13,7 +13,7 @@ app.add_middleware(
 )
 
 cors_config = {
-    "allow_origins": ["https://gw4v6m.csb.app/"],
+    "allow_origins": ["https://gw4v6m.csb.app", "https://codesandbox.io"],
     "allow_credentials": True,
     "allow_methods": ["*"],
     "allow_headers": ["*"],
